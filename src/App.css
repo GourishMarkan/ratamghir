@@ -1,3 +1,9 @@
+* {
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -40,16 +46,24 @@
 .navbar1 {
   display: flex;
 
-  background-color: rgb(199, 199, 14);
+  background-color: #ffee00;
 
   justify-content: space-around;
 }
 .navbar {
   display: flex;
+  width: 100%;
 
+  flex-shrink: 0;
   background-color: darkblue;
 
-  justify-content: center;
+  justify-content: space-evenly;
+}
+.navbar img {
+  width: 179px;
+  height: 179px;
+  flex-shrink: 0;
+  background: url(./components/RRIlogo.png), lightgray 50% / cover no-repeat;
 }
 .navbar1 ul {
   list-style-type: decimal;
@@ -63,7 +77,8 @@
 }
 .navbar1 a {
   text-decoration: none;
-  color: greenyellow;
+  color: #0f4e71;
+
   padding: 15px 20px;
   display: inline-block;
 }
@@ -94,7 +109,9 @@
 
 .img-section img {
   background: url(./img/intro1.png), lightgray 50% / cover no-repeat;
+  /* background: lightgray 50% / cover no-repeat; */
   flex-shrink: 0;
+  width: 100%;
 }
 .intro {
   color: #000;
@@ -109,12 +126,13 @@
 
 .intro2 {
   display: flex;
+  column-gap: 10px;
 }
 
 .intro2 img {
-  background: url(./img/13.png), lightgray 50% / cover no-repeat;
-  width: 578px;
-  height: 433px;
+  background: url(./img/131.png), lightgray 50% / cover no-repeat;
+  width: 40%;
+  height: 300px;
   flex-shrink: 0;
 }
 .intro2 p {
@@ -138,20 +156,6 @@
 .research-description,
 .research-description2 {
   display: flex;
-}
-.research-description img {
-  background: url(./img/7.png), lightgray 50% / cover no-repeat;
-  width: 590px;
-  height: 433px;
-  flex-shrink: 0;
-}
-.research-description2 img {
-  width: 590px;
-  height: 433px;
-  flex-shrink: 0;
-  background: url(./img/22.png), lightgray 50% / cover no-repeat;
-}
-.research-description2 p {
   color: #000;
   font-family: Hero;
   font-size: 15px;
@@ -160,12 +164,38 @@
   line-height: 164.4%; /* 24.66px */
   letter-spacing: 1.275px;
 }
+.research-description img {
+  background: url(./img/71.png), lightgray 50% / cover no-repeat;
+  width: 50%;
+  height: 200px;
+  flex-shrink: 0;
+}
+.research-description2 img {
+  width: 50%;
+  height: 433px;
+  flex-shrink: 0;
+  background: url(./img/22.png), lightgray 50% / cover no-repeat;
+}
+/* .research-description2 p {
+  color: #000;
+  font-family: Hero;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.4%;  24.66px 
+  letter-spacing: 1.275px;
+} */
 /* container -1 */
 .container1 {
-  width: 1280px;
-  height: 667px;
+  padding-top: 10px;
+  width: 100%;
+  height: 550px;
   flex-shrink: 0;
   background: #0f4e71;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .container1-part1 {
   color: #fe0;
@@ -209,7 +239,7 @@
 }
 /* more information */
 
-.Explore {
+/* .Explore {
   color: #0f4e71;
   text-align: center;
   font-family: Jockey One;
@@ -220,13 +250,17 @@
 }
 .explore-content {
   display: flex;
+  justify-content: space-evenly;
 }
 .explore-contanier {
   width: 350px;
   height: 349px;
+  display: flex;
+
   flex-shrink: 0;
   background: #d9d9d9;
 }
+
 .explore-content-heading {
   color: #0f4e71;
   font-family: Jockey One;
@@ -242,11 +276,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: 116.8%; /* 16.352px */
-  letter-spacing: 0.42px;
-}
+/* letter-spacing: 0.42px; */
+/* } */
+
 /* email  */
-.email {
-  width: 1280px;
+/* .email {
+  width: 100%;
   height: 242px;
   flex-shrink: 0;
   background: #0f4e71;
@@ -263,33 +298,35 @@
   font-style: normal;
   font-weight: 400;
   line-height: 144.9%; /* 50.715px */
-}
-.email-description-heading-description {
+
+/* .email-description-heading-description {
   color: #fff;
   font-family: Hero;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 164.4%; /* 23.016px */
-  color: #fff;
+  font-weight: 400; */
+/* line-height: 164.4%; 23.016px */
+/* color: #fff;
   font-family: Hero;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 164.4%; /* 23.016px */
-  /* align-self: center; */
-}
+  font-style: normal; */
+/* font-weight: 400; */
+/* line-height: 164.4%; 23.016px */
+/* = */
+/* }
 .email-form {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
+  align-items: center;
+  
 }
 .email-form-container {
   width: 591px;
   height: 92px;
   flex-shrink: 0;
   background: #fff;
+  text-align: center;
 }
+
 .email-button-container {
   width: 269px;
   height: 92px;
@@ -303,31 +340,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: 164.4%; /* 49.32px */
-  letter-spacing: 2.55px;
-  /* text-align: center; */
-}
-/* footer */
-.footer-container {
-  width: 1280px;
-  height: 525px;
-  flex-shrink: 0;
-  background: #d9d9d9;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.footer-description {
-  color: #000;
-  font-family: Jockey One;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 266.3%; /* 53.26px */
-  letter-spacing: 0.6px;
-}
-.footer-logo {
-  width: 342px;
-  height: 342px;
-  flex-shrink: 0;
-  background: url(./RRIlogo.png), lightgray 50% / cover no-repeat;
-}
+/* letter-spacing: 2.55px; */
+/* */

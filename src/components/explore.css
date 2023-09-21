@@ -1,0 +1,45 @@
+.explore-heading {
+  color: #0f4e71;
+  text-align: center;
+  font-family: Jockey One;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container,
+.explore-des-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-lay {
+  width: 350px;
+  height: 349px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+}
+.explore-h2 {
+  color: #0f4e71;
+  font-family: Jockey One;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.explore-p {
+  color: #0f4e71;
+  font-family: Hero;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.9%; /* 20.286px */
+}
+.explore-h4 {
+  color: #0f4e71;
+  font-family: JejuGothic;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116.8%; /* 16.352px */
+  letter-spacing: 0.42px;
+}

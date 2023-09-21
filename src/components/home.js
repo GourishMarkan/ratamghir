@@ -4,14 +4,14 @@ export default function Home() {
   return (
     <>
       <div className="img-section">
-        <img src="./img/intro1.png" alt=" " height={1280} width={533} />
+        <img src="" alt=" " height={1280} />
       </div>
       <div className="intro">
         Welcome to Ritambhara, a pioneering research institute and the esteemed
         research & Development
       </div>
       <div className="intro2">
-        <img src="./img/13.png" alt="" />
+        <img src="" alt="" />
         <p>
           arm of the renowned Ritanveshi Yogayan Foundation (RYF). Founded with
           a vision to explore the fascinating intersection of Science and
@@ -33,14 +33,14 @@ export default function Home() {
           physics, cosmology, neuroscience, and consciousness studies. Our
           exploration goes beyond conventional boundaries, seeking to comprehend
           the underlying principles that govern the cosmos and the fundamental
-          nature of reality. 2. Spiritual Insights: Drawing inspiration from
-          ancient wisdom and spiritual traditions, we strive to gain insights
-          into the nature of consciousness, self-awareness, and human
+          nature of reality.<br></br> 2. Spiritual Insights: Drawing inspiration
+          from ancient wisdom and spiritual traditions, we strive to gain
+          insights into the nature of consciousness, self-awareness, and human
           experience. Our researchers explore meditation, mindfulness, and
           contemplative practices to discern how they impact well-being,
           cognition, and personal growth.
         </p>
-        <img src="./img/7.png" alt="" />
+        <img src="" alt="" />
       </div>
       <div className="reseach-description2">
         <img src="./img/22.png" alt="img22" />
@@ -49,7 +49,7 @@ export default function Home() {
           the intricate connection between the mind and body. Through empirical
           studies and ancient knowledge, we investigate how spirituality,
           meditation, and yoga practices influence physical and mental health,
-          fostering a holistic approach to well-being. 4. Ethics and
+          fostering a holistic approach to well-being. <br></br>4. Ethics and
           Sustainability: With a strong belief in ethical and sustainable
           practices, our institute aims to explore how spiritual principles can
           contribute to global harmony, environmental stewardship,and the
@@ -69,40 +69,8 @@ export default function Home() {
         <div className="container1-part3">RITAMBHARA FOUNDATION</div>
         <div className="container1-part4">LEARN MORE</div>
       </div>
-      <div className="Explore">
-        <p>
-          Elevate Your Capacity. Deepen Your Discovery. Experience Ritambhara
-          Today.
-        </p>
-      </div>
-      <div className="explore-content">
-        <div className="explore-content1">
-          <div className="explore-contanier"></div>
-          <h1 className="explore-content-heading">Experiential Programs</h1>
-          <p className="explore-content-para">
-            Develop skills to transform yourself and impact the world.
-          </p>
-          <h4 className="explore-content-endhead">LEARN MORE</h4>
-        </div>
-        <div className="explore-content2">
-          <div className="explore-contanier"></div>
-          <h1 className="explore-content-heading">Explore Noetics</h1>
-          <p className="explore-content-para">
-            Tools to enhance your understanding, expand your mind, and feed your
-            soul.
-          </p>
-          <h4 className="explore-content-endhead">LEARN MORE</h4>
-        </div>
-        <div className="explore-content3">
-          <div className="explore-contanier"></div>
-          <h1 className="explore-content-heading">Community Groups</h1>
-          <p className="explore-content-para">
-            Explore consciousness with like-minded people in your neighborhood.
-          </p>
-          <h4 className="explore-content-endhead">LEARN MORE</h4>
-        </div>
-      </div>
-      <div className="email">
+
+      {/* <div className="email">
         <div className="email-container">
           <div className="email-description">
             <h1 className="email-description-heading">
@@ -115,14 +83,18 @@ export default function Home() {
           </div>
           <div className="email-form">
             <div className="email-form-container">
-              <input type="email" placeholder="Enter Your Email " />
+              <input
+                className="email-input"
+                type="email"
+                placeholder="Enter Your Email "
+              />
             </div>
             <div className="email-button-container">
               <button className="email-button">Submit</button>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
