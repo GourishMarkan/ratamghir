@@ -59,12 +59,7 @@
 
   justify-content: space-evenly;
 }
-.navbar img {
-  width: 179px;
-  height: 179px;
-  flex-shrink: 0;
-  background: url(./components/RRIlogo.png), lightgray 50% / cover no-repeat;
-}
+
 .navbar1 ul {
   list-style-type: decimal;
   margin: 0;

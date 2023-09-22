@@ -1,0 +1,6 @@
+.navbar img {
+  width: 179px;
+  height: 179px;
+  flex-shrink: 0;
+  background: url(./RRIlogo.png), lightgray 50% / cover no-repeat;
+}

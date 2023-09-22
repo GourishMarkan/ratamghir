@@ -6,6 +6,7 @@ import Home from "./components/home";
 import Footer from "./components/footer";
 import Explore from "./components/explore";
 import Email from "./components/email";
+import AboutUs from "./components/aboutUs";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Explore />
       <Email />
       <Footer />
+      <AboutUs />
     </>
   );
 }

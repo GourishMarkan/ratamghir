@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./navbar.css";
 export default function Navbar() {
   return (
     <div>
@@ -8,7 +8,7 @@ export default function Navbar() {
           <ul>
             <li>
               <a>
-                <img src="./RRIlogo.png" alt="" />
+                <img src="" alt="" />
               </a>
             </li>
             <li>
