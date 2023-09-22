@@ -1,0 +1,123 @@
+.payment-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 10px;
+}
+.donation-des-cont {
+  width: 100%;
+  height: 307px;
+  flex-shrink: 0;
+  background-color: #d9d9d9;
+}
+.donation-des p {
+  color: #000;
+  font-family: Hero;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 184.9%;
+}
+.payment {
+  border: 1px solid black;
+  width: 40%;
+  height: 400px;
+  flex-shrink: 0;
+}
+.payment-head {
+  width: 100%;
+  height: 66px;
+  flex-shrink: 0;
+  background-color: #0f4e71;
+  border: 1px solid black;
+}
+.payment-head h2 {
+  color: #fff;
+  font-family: JejuGothic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 256.185%; /* 51.237px */
+  letter-spacing: 0.6px;
+}
+.payment-option-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payment-options {
+  display: flex;
+}
+
+.payment-option1 button {
+  color: #fff;
+  background: #00334f;
+  font-family: ITF Devanagari;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.15px;
+}
+.payment-option2 button {
+  background: #0f4e71;
+  color: #fff;
+  font-family: ITF Devanagari;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.15px;
+}
+.payment-amount button {
+  color: #000;
+  background-color: #fff;
+  font-family: Istok Web;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.payment-amount-choice {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.custom-payment {
+  margin: 10px 0;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+.custom-payment button {
+  color: #000;
+  font-family: Istok Web;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+/* .proceed {
+    height: 40px;
+    flex-shrink: 0;
+    
+} */
+.proceed button {
+  color: #fff;
+  border-radius: 6px;
+
+  border: 1px solid #000;
+  background: #0f4e71;
+  font-family: Istok Web;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
